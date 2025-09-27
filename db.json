@@ -1,17 +1,4 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "username": "paulngo",
-      "password": "motdepasse1234",
-      "nom": "NGO",
-      "prenom": "Paul",
-      "adresse": "123 rue Exemple",
-      "cp": "83000",
-      "ville": "La Garde",
-      "telephone": "0600000000"
-    }
-  ],
   "login": [
     {
       "id": 1,
