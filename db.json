@@ -2,59 +2,54 @@
   "login": [
     {
       "id": 1,
+      "username": "paulngo",
+      "password": "motdepasse1234",
       "success": true,
-      "message": "Authentification réussie",
       "token": "mock_token_123"
     },
     {
       "id": 2,
+      "username": "paulngo",
+      "password": "wrongpass",
       "success": false,
-      "message": "Nom d'utilisateur ou mot de passe incorrect"
+      "token": null
     }
   ],
   "createUser": [
     {
       "id": 1,
+      "username": "nouveluser",
+      "password": "motdepasse1234",
       "success": true,
-      "message": "Propriétaire créé avec succès"
+      "message": "Utilisateur créé"
     },
     {
       "id": 2,
+      "username": "paulngo",
+      "password": "motdepasse1234",
       "success": false,
-      "message": "Erreur de validation des champs"
+      "message": "Identifiant déjà existant"
     }
   ],
   "biens": [
     {
       "id": 1,
-      "idT": 1,
-      "idp": 1,
       "libelle": "Appartement A",
-      "adresse": "12 rue A",
       "ville": "Marseille",
-      "pieces": "3",
       "nbPersMax": 4,
       "prix": 50.0
     },
     {
       "id": 2,
-      "idT": 1,
-      "idp": 1,
       "libelle": "Studio B",
-      "adresse": "34 rue B",
       "ville": "Toulon",
-      "pieces": "1",
       "nbPersMax": 2,
       "prix": 30.0
     },
     {
       "id": 3,
-      "idT": 1,
-      "idp": 1,
       "libelle": "Maison C",
-      "adresse": "56 rue C",
       "ville": "Nice",
-      "pieces": "4",
       "nbPersMax": 6,
       "prix": 100.0
     }
