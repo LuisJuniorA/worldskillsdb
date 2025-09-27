@@ -66,23 +66,6 @@
       "prix": 30.0
     }
   ],
-  "createBien": [
-    {
-      "id": 1,
-      "success": true,
-      "message": "Bien créé avec succès"
-    },
-    {
-      "id": 2,
-      "success": false,
-      "message": "Erreur de validation des champs"
-    },
-    {
-      "id": 3,
-      "success": false,
-      "message": "Erreur interne lors de l'insertion"
-    }
-  ],
   "readBien": [
     {
       "id": 1,
