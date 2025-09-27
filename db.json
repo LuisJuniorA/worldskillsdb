@@ -1,0 +1,114 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "paulngo",
+      "password": "motdepasse1234",
+      "nom": "NGO",
+      "prenom": "Paul",
+      "adresse": "123 rue Exemple",
+      "cp": "83000",
+      "ville": "La Garde",
+      "telephone": "0600000000"
+    }
+  ],
+  "login": [
+    {
+      "id": 1,
+      "success": true,
+      "message": "Authentification réussie",
+      "token": "mock_token_123"
+    },
+    {
+      "id": 2,
+      "success": false,
+      "message": "Nom d'utilisateur ou mot de passe incorrect"
+    }
+  ],
+  "createUser": [
+    {
+      "id": 1,
+      "success": true,
+      "message": "Propriétaire créé avec succès"
+    },
+    {
+      "id": 2,
+      "success": false,
+      "message": "Erreur de validation des champs"
+    },
+    {
+      "id": 3,
+      "success": false,
+      "message": "Identifiant déjà existant"
+    }
+  ],
+  "biens": [
+    {
+      "id": 1,
+      "idT": 1,
+      "idp": 1,
+      "libelle": "Appartement A",
+      "adresse": "12 rue A",
+      "ville": "Marseille",
+      "pieces": "3",
+      "nbPersMax": 4,
+      "prix": 50.0
+    },
+    {
+      "id": 2,
+      "idT": 1,
+      "idp": 1,
+      "libelle": "Studio B",
+      "adresse": "34 rue B",
+      "ville": "Toulon",
+      "pieces": "1",
+      "nbPersMax": 2,
+      "prix": 30.0
+    }
+  ],
+  "createBien": [
+    {
+      "id": 1,
+      "success": true,
+      "message": "Bien créé avec succès"
+    },
+    {
+      "id": 2,
+      "success": false,
+      "message": "Erreur de validation des champs"
+    },
+    {
+      "id": 3,
+      "success": false,
+      "message": "Erreur interne lors de l'insertion"
+    }
+  ],
+  "readBien": [
+    {
+      "id": 1,
+      "success": true,
+      "data": [
+        {
+          "id": 1,
+          "idT": 1,
+          "libelle": "Appartement A",
+          "adresse": "12 rue A",
+          "ville": "Marseille",
+          "pieces": "3",
+          "nbPersMax": 4,
+          "prix": 50.0
+        },
+        {
+          "id": 2,
+          "idT": 1,
+          "libelle": "Studio B",
+          "adresse": "34 rue B",
+          "ville": "Toulon",
+          "pieces": "1",
+          "nbPersMax": 2,
+          "prix": 30.0
+        }
+      ]
+    }
+  ]
+}
